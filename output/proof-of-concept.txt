@@ -1,0 +1,1117 @@
+
+#######################################################################################################
+# Current MFT information                                                                 #############
+#######################################################################################################
+MFT entry number: 5
+Sequence value  : 5
+Currently in use: True 
+File name       : .
+
+SUMMARY:
+╔═════╦═══════════════════════════════════════════════════════════════════════════════════════════════╗
+║ seq ║ USN record list                                                                               ║
+╠═════╬═══════════════════════════════════════════════════════════════════════════════════════════════╣
+║   5 ║ [720, 2360]                                                                                   ║
+╚═════╩═══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+FULL HISTORY:
+
+=======================================================================================================
+ MFT entry 5; Sequence value 5 
+=======================================================================================================
+
+    USN      : 720
+    File name: .
+    Timestamp: 2016-01-29 21:27:30.769078
+    Reason   : OBJECT_ID_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 28                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1075329 ║ Open Non Resident Attribute      ║ No-Operation                      ║
+    ║   1075346 ║ No-Operation                     ║ No-Operation                      ║
+    ║   1075357 ║ Add Index Entry Root             ║ Delete Index Entry Root           ║
+    ║   1075379 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1075395 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075414 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1075433 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075452 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1075478 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2360
+    File name: .
+    Timestamp: 2016-01-29 21:27:37.940306
+    Reason   : OBJECT_ID_CHANGE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 141                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1078921 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078940 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1078959 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078978 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1078991 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+#######################################################################################################
+# Current MFT information                                                                 #############
+#######################################################################################################
+MFT entry number: 36
+Sequence value  : 1
+Currently in use: True 
+File name       : cat.jpg
+
+SUMMARY:
+╔═════╦═══════════════════════════════════════════════════════════════════════════════════════════════╗
+║ seq ║ USN record list                                                                               ║
+╠═════╬═══════════════════════════════════════════════════════════════════════════════════════════════╣
+║   1 ║ [0, 80, 160, 240, 320, 400, 480, 560, 640]                                                    ║
+╚═════╩═══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+FULL HISTORY:
+
+=======================================================================================================
+ MFT entry 36; Sequence value 1 
+=======================================================================================================
+
+    USN      : 0
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 55                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1073997 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1074009 ║ No-Operation                     ║ Deallocate File Record Segment    ║
+    ║   1074021 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1074033 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1074056 ║ Initialize File Record Segment   ║ No-Operation                      ║
+    ║   1074109 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1074121 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074140 ║ Update Mapping Pairs             ║ Update Mapping Pairs              ║
+    ║   1074153 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074184 ║ Open Non Resident Attribute      ║ No-Operation                      ║
+    ║   1074201 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1074222 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074241 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 80
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : FILE_CREATE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 113                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1074252 ║ Clear Bits in Nonresident Bitmap ║ Set Bits in Nonresident Bitmap    ║
+    ║   1074264 ║ Update Mapping Pairs             ║ Update Mapping Pairs              ║
+    ║   1074277 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074294 ║ Update File Name Allocation      ║ Update File Name Allocation       ║
+    ║   1074319 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074338 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1074359 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074378 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1074391 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 160
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : DATA_EXTEND
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 125                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1074402 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1074414 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074431 ║ Update Mapping Pairs             ║ Update Mapping Pairs              ║
+    ║   1074444 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074461 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074480 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1074501 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074520 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 240
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : DATA_OVERWRITE|DATA_EXTEND
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 59                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1074567 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074586 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1074607 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074626 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 320
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|STREAM_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 132                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1074637 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1074655 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1074668 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074696 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1074717 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074736 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 400
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|NAMED_DATA_EXTEND|STREAM_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 12                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1074783 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1074794 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1074807 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074826 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1074847 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074866 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 480
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|NAMED_DATA_OVERWRITE|NAMED_DATA_EXTEND|STREAM_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 48                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1074913 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074932 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1074953 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1074972 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 560
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|NAMED_DATA_OVERWRITE|NAMED_DATA_EXTEND|BASIC_INFO_CHANGE|STREAM_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 145                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1074983 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1075010 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075029 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1075050 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075069 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 640
+    File name: cat.jpg
+    Timestamp: 2016-01-29 21:27:30.757846
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|NAMED_DATA_OVERWRITE|NAMED_DATA_EXTEND|BASIC_INFO_CHANGE|STREAM_CHANGE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 1                                                   ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1075176 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075208 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1075229 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075248 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1075261 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+#######################################################################################################
+# Current MFT information                                                                 #############
+#######################################################################################################
+MFT entry number: 37
+Sequence value  : 1
+Currently in use: True 
+File name       : $RECYCLE.BIN
+
+SUMMARY:
+╔═════╦═══════════════════════════════════════════════════════════════════════════════════════════════╗
+║ seq ║ USN record list                                                                               ║
+╠═════╬═══════════════════════════════════════════════════════════════════════════════════════════════╣
+║   1 ║ [784, 872, 960, 1048]                                                                         ║
+╚═════╩═══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+FULL HISTORY:
+
+=======================================================================================================
+ MFT entry 37; Sequence value 1 
+=======================================================================================================
+
+    USN      : 784
+    File name: $RECYCLE.BIN
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 69                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1075758 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1075770 ║ No-Operation                     ║ Deallocate File Record Segment    ║
+    ║   1075782 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1075807 ║ Initialize File Record Segment   ║ No-Operation                      ║
+    ║   1075863 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075882 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1075904 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075923 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 872
+    File name: $RECYCLE.BIN
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : FILE_CREATE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 84                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1075934 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075953 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1075975 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1075994 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1076007 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 960
+    File name: $RECYCLE.BIN
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : BASIC_INFO_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 78                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1076018 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1076039 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1076058 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1076080 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1076099 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 1048
+    File name: $RECYCLE.BIN
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : BASIC_INFO_CHANGE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 102                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1076146 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1076165 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1076187 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1076206 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1076232 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+#######################################################################################################
+# Current MFT information                                                                 #############
+#######################################################################################################
+MFT entry number: 38
+Sequence value  : 1
+Currently in use: True 
+File name       : S-1-5-21-157005759-726012785-4291476054-1001
+
+SUMMARY:
+╔═════╦═══════════════════════════════════════════════════════════════════════════════════════════════╗
+║ seq ║ USN record list                                                                               ║
+╠═════╬═══════════════════════════════════════════════════════════════════════════════════════════════╣
+║   1 ║ [1136, 1288, 1440, 1592]                                                                      ║
+╚═════╩═══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+FULL HISTORY:
+
+=======================================================================================================
+ MFT entry 38; Sequence value 1 
+=======================================================================================================
+
+    USN      : 1136
+    File name: S-1-5-21-157005759-726012785-4291476054-1001
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 31                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1076725 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1076745 ║ No-Operation                     ║ Deallocate File Record Segment    ║
+    ║   1076757 ║ Open Non Resident Attribute      ║ No-Operation                      ║
+    ║   1076774 ║ No-Operation                     ║ No-Operation                      ║
+    ║   1076785 ║ Add Index Entry Root             ║ Delete Index Entry Root           ║
+    ║   1076818 ║ Initialize File Record Segment   ║ No-Operation                      ║
+    ║   1076882 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1076901 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1076931 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1076950 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 1288
+    File name: S-1-5-21-157005759-726012785-4291476054-1001
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : FILE_CREATE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 60                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1076961 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1076980 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1077010 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077029 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1077042 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 1440
+    File name: S-1-5-21-157005759-726012785-4291476054-1001
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : BASIC_INFO_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 107                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1077053 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1077074 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077093 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1077123 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077142 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 1592
+    File name: S-1-5-21-157005759-726012785-4291476054-1001
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : BASIC_INFO_CHANGE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 4                                                   ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1077189 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077208 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1077238 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077265 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1077278 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+#######################################################################################################
+# Current MFT information                                                                 #############
+#######################################################################################################
+MFT entry number: 39
+Sequence value  : 1
+Currently in use: True 
+File name       : desktop.ini
+
+SUMMARY:
+╔═════╦═══════════════════════════════════════════════════════════════════════════════════════════════╗
+║ seq ║ USN record list                                                                               ║
+╠═════╬═══════════════════════════════════════════════════════════════════════════════════════════════╣
+║   1 ║ [1744, 1832, 1920, 2008, 2096, 2184, 2272]                                                    ║
+╚═════╩═══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+FULL HISTORY:
+
+=======================================================================================================
+ MFT entry 39; Sequence value 1 
+=======================================================================================================
+
+    USN      : 1744
+    File name: desktop.ini
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 45                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1077540 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1077552 ║ No-Operation                     ║ Deallocate File Record Segment    ║
+    ║   1077564 ║ Open Non Resident Attribute      ║ No-Operation                      ║
+    ║   1077581 ║ No-Operation                     ║ No-Operation                      ║
+    ║   1077592 ║ Add Index Entry Root             ║ Delete Index Entry Root           ║
+    ║   1077616 ║ Initialize File Record Segment   ║ No-Operation                      ║
+    ║   1077664 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077683 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1077705 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077724 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 1832
+    File name: desktop.ini
+    Timestamp: 2016-01-29 21:27:30.846998
+    Reason   : DATA_EXTEND|FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 66                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1077735 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077754 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1077784 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077803 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 1920
+    File name: desktop.ini
+    Timestamp: 2016-01-29 21:27:30.858144
+    Reason   : DATA_EXTEND|FILE_CREATE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 79                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1077896 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077915 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1077937 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1077956 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1077969 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2008
+    File name: desktop.ini
+    Timestamp: 2016-01-29 21:27:30.858144
+    Reason   : BASIC_INFO_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 83                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1077980 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1078005 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078024 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1078046 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078065 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2096
+    File name: desktop.ini
+    Timestamp: 2016-01-29 21:27:30.858144
+    Reason   : BASIC_INFO_CHANGE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 95                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1078112 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078131 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1078153 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078172 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1078185 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2184
+    File name: desktop.ini
+    Timestamp: 2016-01-29 21:27:30.858144
+    Reason   : DATA_EXTEND
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 103                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1078196 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078215 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1078237 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078256 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2272
+    File name: desktop.ini
+    Timestamp: 2016-01-29 21:27:30.858144
+    Reason   : DATA_EXTEND|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 115                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1078376 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078395 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1078417 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1078436 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1078449 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+#######################################################################################################
+# Current MFT information                                                                 #############
+#######################################################################################################
+MFT entry number: 40
+Sequence value  : 2
+Currently in use: False -> Historic data in MFT entry, easy to extract
+File name       : target.jpg
+
+SUMMARY:
+╔═════╦═══════════════════════════════════════════════════════════════════════════════════════════════╗
+║ seq ║ USN record list                                                                               ║
+╠═════╬═══════════════════════════════════════════════════════════════════════════════════════════════╣
+║   1 ║ [2424, 2504, 2584, 2664, 2744, 2824, 2904, 2984, 4920]                                        ║
+╚═════╩═══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+FULL HISTORY:
+
+=======================================================================================================
+ MFT entry 40; Sequence value 1 
+=======================================================================================================
+
+    USN      : 2424
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:27:37.940306
+    Reason   : FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 51                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1079002 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1079014 ║ No-Operation                     ║ Deallocate File Record Segment    ║
+    ║   1079026 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1079038 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1079062 ║ Initialize File Record Segment   ║ No-Operation                      ║
+    ║   1079116 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079135 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1079156 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079175 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2504
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:27:37.940306
+    Reason   : DATA_EXTEND|FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 149                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1079186 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079203 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1079216 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079235 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1079256 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079275 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2584
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:27:37.940306
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 9                                                   ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1079330 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079349 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1079370 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079389 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2664
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:27:37.952622
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|FILE_CREATE|STREAM_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 22                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1079400 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1079418 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1079443 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079462 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1079483 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079502 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2744
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:27:37.952622
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|NAMED_DATA_EXTEND|FILE_CREATE|STREAM_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 14                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1079549 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1079560 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1079587 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079606 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1079627 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079646 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2824
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:27:37.952622
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|NAMED_DATA_OVERWRITE|NAMED_DATA_EXTEND|FILE_CREATE|STREAM_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 56                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1079693 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079712 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1079733 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079752 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2904
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:27:37.952622
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|NAMED_DATA_OVERWRITE|NAMED_DATA_EXTEND|FILE_CREATE|BASIC_INFO_CHANGE|STREAM_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 64                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1079763 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1079790 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079817 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1079838 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079857 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 2984
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:27:37.952622
+    Reason   : DATA_OVERWRITE|DATA_EXTEND|NAMED_DATA_OVERWRITE|NAMED_DATA_EXTEND|FILE_CREATE|BASIC_INFO_CHANGE|STREAM_CHANGE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 80                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1079964 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1079983 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1080004 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1080023 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1080036 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4920
+    File name: target.jpg
+    Timestamp: 2016-01-29 21:29:12.795932
+    Reason   : FILE_DELETE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 53                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1085794 ║ Clear Bits in Nonresident Bitmap ║ Set Bits in Nonresident Bitmap    ║
+    ║   1085806 ║ Delete Index Entry Allocation    ║ Add Index Entry Allocation        ║
+    ║   1085830 ║ Deallocate File Record Segment   ║ Initialize File Record Segment    ║
+    ║   1085844 ║ Clear Bits in Nonresident Bitmap ║ Set Bits in Nonresident Bitmap    ║
+    ║   1085856 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1085875 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1085896 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1085915 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+#######################################################################################################
+# Current MFT information                                                                 #############
+#######################################################################################################
+MFT entry number: 41
+Sequence value  : 3
+Currently in use: False -> Historic data in MFT entry, easy to extract
+File name       : password.txt
+
+SUMMARY:
+╔═════╦═══════════════════════════════════════════════════════════════════════════════════════════════╗
+║ seq ║ USN record list                                                                               ║
+╠═════╬═══════════════════════════════════════════════════════════════════════════════════════════════╣
+║   1 ║ [3064, 3168, 3272, 3376, 3456, 3536, 3616, 3696, 3776, 3856]                                  ║
+║   2 ║ [3936, 4096, 4200, 4304, 4392, 4480, 4568, 4656, 4744, 4832]                                  ║
+╚═════╩═══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+FULL HISTORY:
+
+=======================================================================================================
+ MFT entry 41; Sequence value 1 
+=======================================================================================================
+
+    USN      : 3064
+    File name: New Text Document.txt
+    Timestamp: 2016-01-29 21:27:42.009108
+    Reason   : FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 34                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1080544 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1080556 ║ No-Operation                     ║ Deallocate File Record Segment    ║
+    ║   1080568 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1080595 ║ Initialize File Record Segment   ║ No-Operation                      ║
+    ║   1080646 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1080665 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1080689 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1080708 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3168
+    File name: New Text Document.txt
+    Timestamp: 2016-01-29 21:27:42.009108
+    Reason   : FILE_CREATE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 82                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1080719 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1080738 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1080762 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1080781 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1080794 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3272
+    File name: New Text Document.txt
+    Timestamp: 2016-01-29 21:27:45.340434
+    Reason   : RENAME_OLD_NAME
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 131                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1081064 ║ Delete Index Entry Allocation    ║ Add Index Entry Allocation        ║
+    ║   1081091 ║ Delete Attribute                 ║ Create Attribute                  ║
+    ║   1081119 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1081144 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1081168 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081187 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1081211 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081230 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081249 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1081270 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081289 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3376
+    File name: secret.txt
+    Timestamp: 2016-01-29 21:27:45.340434
+    Reason   : RENAME_NEW_NAME
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 131                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1081064 ║ Delete Index Entry Allocation    ║ Add Index Entry Allocation        ║
+    ║   1081091 ║ Delete Attribute                 ║ Create Attribute                  ║
+    ║   1081119 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1081144 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1081168 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081187 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1081211 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081230 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081249 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1081270 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081289 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3456
+    File name: secret.txt
+    Timestamp: 2016-01-29 21:27:45.340434
+    Reason   : RENAME_NEW_NAME|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 13                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1081371 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1081396 ║ Update File Name Allocation      ║ Update File Name Allocation       ║
+    ║   1081421 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081440 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1081461 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081480 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1081493 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3536
+    File name: secret.txt
+    Timestamp: 2016-01-29 21:27:45.434440
+    Reason   : OBJECT_ID_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 33                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1081504 ║ Add Index Entry Root             ║ Delete Index Entry Root           ║
+    ║   1081526 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1081542 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081561 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1081582 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081601 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3616
+    File name: secret.txt
+    Timestamp: 2016-01-29 21:27:45.434440
+    Reason   : OBJECT_ID_CHANGE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 43                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1081612 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1081637 ║ Update File Name Allocation      ║ Update File Name Allocation       ║
+    ║   1081662 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081681 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1081702 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1081721 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1081734 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3696
+    File name: secret.txt
+    Timestamp: 2016-01-29 21:27:51.779344
+    Reason   : DATA_EXTEND
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 87                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1082115 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1082134 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1082155 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1082174 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3776
+    File name: secret.txt
+    Timestamp: 2016-01-29 21:27:51.789750
+    Reason   : DATA_EXTEND|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 106                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1082317 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1082336 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1082357 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1082384 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1082397 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 3856
+    File name: secret.txt
+    Timestamp: 2016-01-29 21:28:06.551178
+    Reason   : FILE_DELETE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 126                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1082596 ║ Delete Index Entry Allocation    ║ Add Index Entry Allocation        ║
+    ║   1082620 ║ Delete Index Entry Root          ║ Add Index Entry Root              ║
+    ║   1082642 ║ Deallocate File Record Segment   ║ Initialize File Record Segment    ║
+    ║   1082656 ║ Clear Bits in Nonresident Bitmap ║ Set Bits in Nonresident Bitmap    ║
+    ║   1082668 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1082687 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1082708 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1082727 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+=======================================================================================================
+ MFT entry 41; Sequence value 2 
+=======================================================================================================
+
+    USN      : 3936
+    File name: New Text Document.txt
+    Timestamp: 2016-01-29 21:28:11.527128
+    Reason   : FILE_CREATE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 104                                                 ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1083171 ║ Set Bits in Nonresident Bitmap   ║ Clear Bits in Nonresident Bitmap  ║
+    ║   1083183 ║ No-Operation                     ║ Deallocate File Record Segment    ║
+    ║   1083195 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1083222 ║ Initialize File Record Segment   ║ No-Operation                      ║
+    ║   1083273 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083292 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1083316 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083335 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4096
+    File name: New Text Document.txt
+    Timestamp: 2016-01-29 21:28:11.527128
+    Reason   : FILE_CREATE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 15                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1083346 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083365 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1083376 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083403 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083422 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1083446 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083465 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1083478 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4200
+    File name: New Text Document.txt
+    Timestamp: 2016-01-29 21:28:15.808418
+    Reason   : RENAME_OLD_NAME
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 40                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1083552 ║ Delete Index Entry Allocation    ║ Add Index Entry Allocation        ║
+    ║   1083579 ║ Delete Attribute                 ║ Create Attribute                  ║
+    ║   1083607 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1083633 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1083658 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083677 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1083701 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083720 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083739 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1083761 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083780 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4304
+    File name: password.txt
+    Timestamp: 2016-01-29 21:28:15.808418
+    Reason   : RENAME_NEW_NAME
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 40                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1083552 ║ Delete Index Entry Allocation    ║ Add Index Entry Allocation        ║
+    ║   1083579 ║ Delete Attribute                 ║ Create Attribute                  ║
+    ║   1083607 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1083633 ║ Add Index Entry Allocation       ║ Delete Index Entry Allocation     ║
+    ║   1083658 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083677 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1083701 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083720 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083739 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1083761 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083780 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4392
+    File name: password.txt
+    Timestamp: 2016-01-29 21:28:15.808418
+    Reason   : RENAME_NEW_NAME|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 63                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1083854 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1083879 ║ Update File Name Allocation      ║ Update File Name Allocation       ║
+    ║   1083912 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083931 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1083953 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1083972 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1083985 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4480
+    File name: password.txt
+    Timestamp: 2016-01-29 21:28:15.915704
+    Reason   : OBJECT_ID_CHANGE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 73                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1083996 ║ Add Index Entry Root             ║ Delete Index Entry Root           ║
+    ║   1084018 ║ Create Attribute                 ║ Delete Attribute                  ║
+    ║   1084034 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1084053 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1084075 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1084094 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4568
+    File name: password.txt
+    Timestamp: 2016-01-29 21:28:15.915704
+    Reason   : OBJECT_ID_CHANGE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 0                                                   ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1084105 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1084130 ║ Update File Name Allocation      ║ Update File Name Allocation       ║
+    ║   1084155 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1084174 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1084196 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1084215 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1084228 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4656
+    File name: password.txt
+    Timestamp: 2016-01-29 21:28:56.652424
+    Reason   : DATA_EXTEND
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 81                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1085167 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1085186 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1085208 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1085227 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4744
+    File name: password.txt
+    Timestamp: 2016-01-29 21:28:56.652424
+    Reason   : DATA_EXTEND|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 30                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1085370 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1085389 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1085411 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1085430 ║ Update Resident Value            ║ Update Resident Value             ║
+    ║   1085451 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝
+
+    USN      : 4832
+    File name: password.txt
+    Timestamp: 2016-01-29 21:29:12.795932
+    Reason   : FILE_DELETE|CLOSE
+    ╔══════════════════════════════════════════════════════════════════════════════════╗
+    ║ $LogFile transaction number: 38                                                  ║
+    ╠═══════════╦══════════════════════════════════╦═══════════════════════════════════╣
+    ║  LSN      ║ Redo operation                   ║ Undo operation                    ║
+    ╠═══════════╬══════════════════════════════════╬═══════════════════════════════════╣
+    ║   1085650 ║ Delete Index Entry Allocation    ║ Add Index Entry Allocation        ║
+    ║   1085675 ║ Delete Index Entry Root          ║ Add Index Entry Root              ║
+    ║   1085697 ║ Deallocate File Record Segment   ║ Initialize File Record Segment    ║
+    ║   1085711 ║ Clear Bits in Nonresident Bitmap ║ Set Bits in Nonresident Bitmap    ║
+    ║   1085723 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1085742 ║ Update Nonresident Value         ║ No-Operation                      ║
+    ║   1085764 ║ Set New Attribute Sizes          ║ Set New Attribute Sizes           ║
+    ║   1085783 ║ Forget Transaction               ║ Compensation Log Record           ║
+    ╚═══════════╩══════════════════════════════════╩═══════════════════════════════════╝

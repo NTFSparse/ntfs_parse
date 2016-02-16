@@ -202,4 +202,4 @@ Or for Debian Jessie, 8.2
 3. ```pyreverse ntfs_parse/```
 4. ```dot -Tsvg classes_No_Name.dot -o classes.svg```
 
-The svg can be opened in Firefox 
+The svg can be opened in Firefox  
